@@ -159,13 +159,13 @@
 {
   %\setmainfont[BoldFont = Helvetica Neue, ItalicFont=Helvetica Neue Thin Italic ,SmallCapsFont = Helvetica Neue Light]{Helvetica Neue Thin}
   \setmainfont{Source Sans Pro Light}[
-    BoldFont = SourceSansPro-Regular,
+    BoldFont = SourceSansPro-Semibold,
     ItalicFont= Source Sans Pro Light Italic]
 }
 {
-  \setmainfont{SourceSansPro-Light}[
+  \setmainfont{SourceSansPro-Regular}[
     Path = ../fonts/,
-    BoldFont = SourceSansPro-Regular,
+    BoldFont = SourceSansPro-Semibold,
     ItalicFont = SourceSansPro-LightIt]
 }
 
@@ -545,7 +545,7 @@
 }
 
 %% Bibliography
-\usepackage[backend=bibtex,style=authoryear,natbib=true]{biblatex} 
+\usepackage[backend=biber,style=authoryear,natbib=true]{biblatex} 
 
 \newcounter{bibitem}
 \AtBeginBibliography{\setcounter{bibitem}{1}}
